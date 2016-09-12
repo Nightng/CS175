@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fortune Teller</string>
+    <string-array name="fortune_array">
+        <item>It is certain</item>
+        <item>Without a doubt</item>
+        <item>Yes, definitely</item>
+        <item>Concentrate and ask again</item>
+        <item>Ask again later</item>
+        <item>Very doubtful</item>
+        <item>Outlook not so good</item>
+        <item>Do not count on it</item>
+    </string-array>
+</resources>
