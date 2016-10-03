@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="imagesArray">
+        <item>@drawable/pikachu</item>
+        <item>@drawable/bulbasaur</item>
+        <item>@drawable/charmander</item>
+        <item>@drawable/squirtle</item>
+        <item>@drawable/eevee</item>
+        <item>@drawable/ditto</item>
+        <item>@drawable/dragonite</item>
+        <item>@drawable/articuno</item>
+        <item>@drawable/mew</item>
+        <item>@drawable/snorlax</item>
+    </array>
+</resources>

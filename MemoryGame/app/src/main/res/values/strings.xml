@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Memory Game</string>
+    <string-array name="imgArray">
+        <item>pikachu</item>
+        <item>bulbasaur</item>
+        <item>charmander</item>
+        <item>squirtle</item>
+        <item>eevee</item>
+        <item>ditto</item>
+        <item>dragonite</item>
+        <item>articuno</item>
+        <item>mew</item>
+        <item>snorlax</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

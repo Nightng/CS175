@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wilson.memorygame.Rules">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RULES of the Game"
+        android:id="@+id/tvTitle"
+        android:textSize="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. There are 20 Unowns. Hidden behind these Unowns are 10 random pokemons, each repeated twice. "
+        android:id="@+id/textView1"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Touch on any two Unowns. Touching on an Unown will show a pokemon."
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. If the two pokemon match, they disappear and you get a point."
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. If the two pokemon do NOT match, they flip over to being Unowns again after the next tap."
+        android:id="@+id/textView4"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Hitting the back soft key while playing will take you back to the first screen. If you press Play again, it will prompt you to resume your previous game or play a new game."
+        android:id="@+id/textView6"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:padding="5dp" />
+
+</RelativeLayout>
