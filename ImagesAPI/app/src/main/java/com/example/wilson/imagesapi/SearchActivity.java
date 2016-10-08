@@ -69,6 +69,8 @@ public class SearchActivity extends AppCompatActivity {
         try {
             Log.i("processData", "try");
             JSONObject results = new JSONObject(result);
+            int total = results.getInt("total");
+            if(total == 0) Toast.makeText(SearchActivity.this, "Sorry, there is no images for that query. Try words like 'nature' or 'ocean'", Toast.LENGTH_SHORT).show();
             JSONArray jsonArray = results.getJSONArray("results");
             int length = jsonArray.length();
             if(jsonArray.length() > l.size()) length = l.size();
