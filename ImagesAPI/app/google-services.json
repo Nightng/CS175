@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "116124933419",
+    "firebase_url": "https://imagesapi.firebaseio.com",
+    "project_id": "imagesapi",
+    "storage_bucket": "imagesapi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116124933419:android:f94c35d33a981463",
+        "android_client_info": {
+          "package_name": "com.example.wilson.imagesapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116124933419-pprtdo1r4oalb3pp6v3tbdvlvfckvlpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
